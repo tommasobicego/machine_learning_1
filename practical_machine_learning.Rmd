@@ -1,6 +1,6 @@
 ---
 title: "Practical Machine Learning Assignment"
-output: pdf_document
+output: html_document
 ---
 Tommaso Bicego 25/07/2014 Milano, Italia (IT)
 
@@ -21,11 +21,11 @@ library(randomForest)
 
 ```
 
-Then I read the datasets
+Then I read the downloaded datasets
 
 ```{r, echo=TRUE, results='hide', cache=TRUE}
-train_csv <- read.csv("C://Users/CSP/Downloads/pml-training.csv",stringsAsFactors = TRUE)
-test_csv <- read.csv("C://Users/CSP/Downloads/pml-testing.csv")
+train_csv <- read.csv("pml-training.csv",stringsAsFactors = TRUE)
+test_csv <- read.csv("pml-testing.csv")
 ``` 
 
 I'm going to clean our datasets from the following columns/data:

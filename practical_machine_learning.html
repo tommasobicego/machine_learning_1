@@ -69,9 +69,9 @@ library(foreach)
 library(plyr)
 library(gbm)
 library(randomForest)</code></pre>
-<p>Then I read the datasets</p>
-<pre class="r"><code>train_csv &lt;- read.csv(&quot;C://Users/CSP/Downloads/pml-training.csv&quot;,stringsAsFactors = TRUE)
-test_csv &lt;- read.csv(&quot;C://Users/CSP/Downloads/pml-testing.csv&quot;)</code></pre>
+<p>Then I read the downloaded datasets</p>
+<pre class="r"><code>train_csv &lt;- read.csv(&quot;pml-training.csv&quot;,stringsAsFactors = TRUE)
+test_csv &lt;- read.csv(&quot;pml-testing.csv&quot;)</code></pre>
 <p>I’m going to clean our datasets from the following columns/data:</p>
 <ul>
 <li>columns that contain missing values (!NAs);</li>

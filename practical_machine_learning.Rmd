@@ -5,7 +5,7 @@ output: html_document
 Tommaso Bicego 25/07/2014 Milano, Italia (IT)
 
 ## Synopsis
-The task of the project is to correctly identify how well the test subjects executed lifts, by analysing the data obtained thanks to accelerometers located on the belt, forearm, arm, and dumbell of the participants. How well means to identify in which of the five different *classes* the particular lift execution falls.
+The task of the project is to correctly identify how well the test subjects executed lifts, by analysing the data obtained thanks to accelerometers located on the belt, forearm, arm, and dumbbell of the participants. How well means to identify into which of the five different *classes* the particular execution of the lift falls.
 
 ## Data processing
 
